@@ -1,0 +1,254 @@
+{
+  "JOY/HAPPINESS": {
+    "fonts": {
+      "headings": "Fredoka (Bold, fun - Headings, Logo)",
+      "body_text": "Quicksand (Clean, readable - Body Text , Subtext)",
+      "highlight_text": "Pacifico (Playful handwritten - Highlight Text, Callouts)"
+    },
+    "colors": [
+      "#FF6B6B",
+      "#FFA552",
+      "#FDE74C",
+      "#A1E3D8",
+      "#4D9DE0"
+    ],
+    "images_keywords": [
+      "bright flowers",
+      "round patterns",
+      "pretty smiles",
+      "colorful balloons"
+    ],
+    "layout_style": {
+      "archetype": "Playful & Dynamic",
+      "grid": "Irregular",
+      "alignment": "Centered/Floating",
+      "transitions": "Bouncy",
+        "corner_style": "Rounded"
+    },
+    "moodboard": "images/Joy.png"
+  },
+  "SORROW/DUSK": {
+    "fonts": {
+      "headings": "Cormorant Garamond (Elegant, classical - Headings, Logo)",
+      "body_text": "Source Sans Pro (Neutral, legible - Body Text , Subtext)",
+      "highlight_text": "Dancing Script (Subtle expressiveness - Highlight Text, Callouts)"
+    },
+    "colors": [
+      "#A2B8D8",
+      "#C1A3C5",
+      "#7A7A7A",
+      "#CDE7F0",
+      "#3D3D3D"
+    ],
+    "images_keywords": [
+      "crying face",
+      "rainy window",
+      "wilted flower",
+      "lonely bench"
+    ],
+    "layout_style": {
+      "archetype": "Minimal & Gentle",
+      "grid": "Sparse",
+      "alignment": "Centered",
+      "transitions": "Subtle",
+      "corner_style": "Soft"
+    },
+    "moodboard": "images/Sorrow.png"
+  },
+  "LOVE/BLUSH": {
+    "fonts": {
+      "headings": "Playfair Display (Elegant, romantic - Headings, Logo)",
+      "body_text": "Crimson Text (Warm, legible - Body Text , Subtext)",
+      "highlight_text": "Parisienne (Romantic handwritten - Highlight Text, Callouts)"
+    },
+    "colors": [
+      "#F7C6C7",
+      "#FF6F91",
+      "#B93160",
+      "#FFF1F1",
+      "#472D30"
+    ],
+    "images_keywords": [
+      "romantic couple",
+      "red hearts",
+      "holding hands",
+      "soft candlelight"
+    ],
+    "layout_style": {
+      "archetype": "Intimate & Soft",
+      "grid": "Centered",
+      "alignment": "Overlapping",
+      "transitions": "Romantic Flow",
+      "corner_style": "Curved"
+    },
+    "moodboard": "images/Love.png"
+  },
+  "POWER/ANGER": {
+    "fonts": {
+      "headings": "Bebas Neue (Bold, Condensed - Headings, Logo)",
+      "body_text": "Roboto (Clean, Geometric - Body Text , Subtext)",
+      "highlight_text": "Black Ops One (Military, heavy-weight - Highlight Text, Callouts)"
+    },
+    "colors": [
+      "#D72638",
+      "#FF5700",
+      "#FFD700",
+      "#1E1E1E",
+      "#8B0000"
+    ],
+    "images_keywords": [
+      "mountaintop view",
+      "strong stance",
+      "lightning bolt",
+      "raised fist"
+    ],
+    "layout_style": {
+      "archetype": "Bold & Structured",
+      "grid": "Strong",
+      "alignment": "Left-Aligned",
+      "transitions": "Firm",
+      "corner_style": "Sharp"
+    },
+    "moodboard": "images/Power.png"
+  },
+  "PEACE/SERENITY": {
+    "fonts": {
+      "headings": "Cormorant Garamond (classic, graceful - Headings, Logo)",
+      "body_text": "Lato Light (legible, minimal - Body Text , Subtext)",
+      "highlight_text": "Allura (Whispers of emotion- Highlight Text, Callouts)"
+    },
+    "colors": [
+      "#A8D5BA",
+      "#E3F2FD",
+      "#FFF7E6",
+      "#D0CDE1",
+      "#9CAFAA"
+    ],
+    "images_keywords": [
+      "calm lake",
+      "meditation pose",
+      "sunset horizon",
+      "white dove"
+    ],
+    "layout_style": {
+      "archetype": "Balanced & Airy",
+      "grid": "Symmetrical",
+      "alignment": "Centered",
+      "transitions": "Smooth",
+      "corner_style": "Rounded"
+    },
+    "moodboard": "images/Peace.png"
+  },
+  "SURPRISE/WONDER": {
+    "fonts": {
+      "headings": "Raleway (Modern, impactful - Headings, Logo)",
+      "body_text": "Nunito ( Friendly, balanced - Body Text , Subtext)",
+      "highlight_text": "Pacifico (Handwritten, quirky, expressive - Highlight Text, Callouts)"
+    },
+    "colors": [
+      "#FFD972",
+      "#FF90B3",
+      "#B388EB",
+      "#5AD1E3",
+      "#FCF6F5"
+    ],
+    "images_keywords": [
+      "wide eyes",
+      "burst of color",
+      "jack-in-the-box",
+      "unexpected gift"
+    ],
+    "layout_style": {
+      "archetype": "Experimental & Asymmetric",
+      "grid": "Unpredictable",
+      "alignment": "Mixed",
+      "transitions": "Visual Pops",
+      "corner_style": "Mixed"
+    },
+    "moodboard": "images/Surprise.png"
+  },
+  "NEUTRAL/CLARITY": {
+    "fonts": {
+      "headings": "Merriweather (reliable, timeless - Headings, Logo)",
+      "body_text": "Open Sans ( Highly readable, neutral - Body Text , Subtext)",
+      "highlight_text": "Cabin (Rounded, professional - Highlight Text, Callouts)"
+    },
+    "colors": [
+      "#C2B280",
+      "#8D8D8D",
+      "#F4F2ED",
+      "#6B4C3B",
+      "#E0D8CC"
+    ],
+    "images_keywords": [
+      "monotone background",
+      "blank expression",
+      "gray wall",
+      "minimalist room"
+    ],
+    "layout_style":  {
+      "archetype": "Clean & Default",
+      "grid": "Standard",
+      "alignment": "Balanced",
+      "transitions": "Simple",
+      "corner_style": "Neutral"
+    },
+    "moodboard": "images/Neutral.png"
+  },
+  "TRUST/SECURITY": {
+    "fonts": {
+      "headings": "Merriweather (reliable, timeless - Headings, Logo)",
+      "body_text": "Inter (Modern and highly legible - Body Text , Subtext)",
+      "highlight_text": "DM Sans ( Clean, readable - Highlight Text, Callouts)"
+    },
+    "colors": [
+      "#1A73E8",
+      "#4CAF50",
+      "#B0BEC5",
+      "#F5F5F5",
+      "#0D1B2A"
+    ],
+    "images_keywords": [
+      "handshake",
+      "open arms",
+      "guide dog",
+      "team huddle"
+    ],
+    "layout_style":  {
+      "archetype": "Reliable & Conventional",
+      "grid": "Solid",
+      "alignment": "Left-Aligned",
+      "transitions": "Subtle",
+      "corner_style": "Rounded"
+    },
+    "moodboard": "images/Trust.png"
+  },
+  "FEAR/ANXIETY": {
+    "fonts": {
+      "headings": "Cinzel Decorative (Gothic, intense - Headings, Logo)",
+      "body_text": "DM Sans (Clear, simple - Body Text , Subtext)",
+      "highlight_text": "UnifrakturCook ( Distorted, glitchy - Highlight Text, Callouts)"
+    },
+    "colors": [
+      "#1A1A1A",
+      "#4B4F55",
+      "#B9C9D9",
+      "#6E5A7C",
+      "#7C2F36"
+    ],
+    "images_keywords": [
+      "dark alley",
+      "ominous shadow",
+      "eerie lighting",
+      "creepy forest"
+    ],
+    "layout_style": {
+      "archetype": "Dark & Sharp",
+      "grid": "Tight",
+      "alignment": "Right-Aligned",
+      "transitions": "Dramatic",
+      "corner_style": "Pointed"
+    },
+    "moodboard": "images/Fear.png"
+  }
+}

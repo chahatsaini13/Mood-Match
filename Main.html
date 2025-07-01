@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mood Match</title>
   <link rel="stylesheet" href="Main.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Poppins:wght@300;500;600;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Poppins:wght@300;500;600;800&display=swap"
+    rel="stylesheet" />
 </head>
+
 <body>
+
   <div class="page-wrapper">
     <div class="overlay-container">
       <div class="header-bar">
@@ -19,7 +23,8 @@
       <div class="generator-box">
         <h2 class="subtitle">Generate Your Emotion-Inspired Moodboard</h2>
         <p class="description">
-          Describe your emotion or idea to get a moodboard tailored by AI, with visuals, fonts, and color harmony built to match.
+          Describe your emotion or idea to get a moodboard tailored by AI, with visuals, fonts, and color harmony built
+          to match.
         </p>
         <textarea class="input-box" placeholder="Enter your feelings or ideas here......"></textarea>
         <button class="generate-btn">Generate</button>
@@ -28,8 +33,8 @@
       <footer class="footer">
         <hr class="separator" />
         <div class="footer-text">
-            <p>Thanks for exploring MoodMatch</p>
-            <p>Built with Love at Adobe Express Add ons</p>
+          <p>Thanks for exploring MoodMatch</p>
+          <p>Built with Love at Adobe Express Add ons</p>
         </div>
         <div class="team">
           <p class="team-member">Chahat Saini — UI/UX + Frontend + Support AI/ML</p>
@@ -39,5 +44,42 @@
       </footer>
     </div>
   </div>
+  <script>
+    document.querySelector('.generate-btn').addEventListener('click', async () => {
+      const inputBox = document.querySelector('.input-box');
+      const userText = inputBox.value.trim();
+
+      if (!userText) {
+        alert("Please enter some text first!");
+        return;
+      }
+
+      try {
+        const response = await fetch('https://86b3-106-219-152-86.ngrok-free.app/analyze_emotion', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ text: userText })
+        });
+
+        if (!response.ok) {
+          throw new Error("Failed to fetch data from backend");
+        }
+
+        const data = await response.json();
+        console.log("🎯 Emotion Detected:", data.emotion);
+        console.log("🎨 Design Output:", data.design);
+
+        // 🚀 Optional Next Step: Show on screen instead of just console
+        alert(`Emotion: ${data.emotion}\nColors: ${data.design.colors.join(", ")}`);
+
+      } catch (error) {
+        console.error("Error:", error);
+        alert("Something went wrong while generating the moodboard.");
+      }
+    });
+  </script>
 </body>
+
 </html>
