@@ -22,6 +22,6 @@ An AI-powered moodboard generator designed to spark inspiration for designers, s
 - **Frontend:** HTML, CSS, Javascript
 - **Backend:** Python / Node.js (for API calls and generation pipeline)
 - **ML Model:** Custom-trained emotion classifier (text-to-emotion)
-- **Image Sources:** Unsplash API, Pexels API, Pinterest scraping
+- **Image Sources:** Google Font API, Pexels API, Pinterest scraping
 - **Design Rendering:** Figma, custom SVG templating
 - **Versioning & Monitoring:** Weights & Biases
